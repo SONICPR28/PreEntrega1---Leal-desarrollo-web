@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  header {
+    background-color: #ffffff;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 5px rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    font-size: 35px;
+    font-family: Verdana "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    list-style: none;
+  }
+  header .menud ul {
+    list-style: none;
+  }
+  header .menud li {
+    list-style: none;
+    display: inline-block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  header .menud li a {
+    display: block;
+    padding: 15px;
+    color: rgb(255, 255, 255);
+    text-shadow: rgba(255, 255, 255, 0.514);
+    transition: all 0.3s;
+  }
+  header .menu li a:hover {
+    color: black;
+    text-decoration: none;
+  }
+  header .submenu {
+    position: absolute;
+    width: 300px;
+    display: block;
+    padding: 10px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    opacity: 0;
+    transition: opacity 0.5s;
+    overflow: auto;
+  }
+  header .menud li:hover .submenu {
+    visibility: visible;
+    opacity: 1;
+    background-color: rgba(255, 255, 255, 0.986);
+    border-radius: 15px;
+  }
+  header .submenuservicio {
+    position: absolute;
+    width: 190px;
+    display: block;
+    padding: 10px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    opacity: 0;
+    transition: opacity 0.5s;
+    overflow: auto;
+  }
+  header .menud li:hover .submenuservicio {
+    visibility: visible;
+    opacity: 1;
+    background-color: rgba(255, 255, 255, 0.986);
+    border-radius: 15px;
+  }
+  header .submenusocial {
+    position: absolute;
+    width: 300px;
+    display: block;
+    padding: 10px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    opacity: 0;
+    transition: opacity 0.5s;
+    overflow: auto;
+  }
+  header .menud li:hover .submenusocial {
+    visibility: visible;
+    opacity: 1;
+    background-color: rgba(255, 255, 255, 0.986);
+    border-radius: 15px;
+  }
+
+  .logo {
+    background-image: url(../img/download.png);
+    background-size: cover;
+    height: auto;
+  }
+  
+  .menu {
+    cursor: pointer;
+  }
+  
+  main{
+    color: white;
+    background-position: 20px;
+    display: flex;
+    justify-content: flex-end;
+    border: 20px solid white;
+    height: 800px;
+    width: 100%;
+  }
+
+  .fondo{
+    background-color: black;
+    background-image: url(../img/just\ do\ ittt.jpg);
+    background-size: cover;
+    height: 800px;
+    width: 100%;
+  }
+
+  .call {
+    width: 50%;
+    height: 29%;
+    background-color: rgba(255, 255, 255, 0.055);
+    padding: 10px;
+    margin: 20px;
+    border: 3px solid white;
+    overflow: auto;
+  }
+  
+  a main p {
+    color: rgb(255, 255, 255);
+  }
+  
+  main a {
+    background-color: rgba(0, 0, 0, 0.13);
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    margin-bottom: 5px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+  }
+  
+  main a:hover {
+    background-color: #fff;
+    border: #fff;
+    color: black;
+    text-shadow: 0 0 5px black;
+  }
+  footer {
+    height: 120px;
+    text-align: center;
+    font-size: 20px;
+    background-color: black;
+    color: #fff;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    padding: 10px;
+  }
+  
+  footer p {
+    margin-bottom: 10px;
+  }
+  
+  footer i {
+    font-size: 40px;
+    letter-spacing: 10px;
+    color: rgb(255, 255, 255);
+  }
+  
+  .subir {
+    height: 30px;
+    width: 30px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 35px;
+    box-shadow: 0 0 5px #fff;
+  }
+  
+  footer i:hover {
+    color: rgb(0, 0, 167);
+  }
+
+  main .call1{
+    color: white;
+    height: 700px;
+    width: 100%;
+    background-color: black;
+    background-image: url(../img/fondototal.jpg);
+    background-size: cover;
+    background-position: 20px;
+    display: flex;
+    justify-content: flex-end;
+    border: 20px solid white;
+  }
+  .texto{
+    width: 1050px;
+    padding-top: 300px;
+  }  
+  .nosotros {
+    height: auto;
+    width: 100%;
+    background-color: white;
+    border: 20px solid rgb(255, 255, 255);
+  }
+  .nleft {
+    height: 900px;
+    background-image: url(../img/Lebron.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+  }
+  .nright p {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .nright{
+    height: auto;
+    width: 100%;
+    background-color: #fff;
+    padding: 20px;
+    border: 20px;
+}
